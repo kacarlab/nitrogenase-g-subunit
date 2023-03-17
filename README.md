@@ -24,7 +24,7 @@ We recommend the usage of conda environments to ease the installation
 of all code dependencies. Miniconda can be downloaded from its [webpage]().
 To install the environment, just run:
 
-    conda create --file environment.yml
+    conda env create --file environment.yml
 
 There are some packages that we could not install through conda. Paste the
 following comments here:
