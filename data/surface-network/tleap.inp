@@ -1,0 +1,37 @@
+
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+
+c = loadPDB DKG.AzoV.Vnf.aligned.pdb 
+savepdb c DKG.AzoV.Vnf.amber.pdb
+saveamberparm c  DKG.AzoV.Vnf.aligned.prmtop DKG.AzoV.Vnf.aligned.inpcrd
+
+c = loadPDB DKG.AzoV.Anf.pdb.aligned.pdb
+savepdb c DKG.AzoV.Anf.amber.pdb 
+saveamberparm c DKG.AzoV.Anf.aligned.prmtop DKG.AzoV.Anf.aligned.inpcrd
+
+c = loadPDB  DK.Anc265.aligned.pdb  
+savepdb c  DK.Anc265.amber.pdb
+saveamberparm c  DK.Anc265.aligned.prmtop  DK.Anc265.aligned.inpcrd
+
+c = loadPDB  DK.Anc264.aligned.pdb  
+savepdb c  DK.Anc264.amber.pdb
+saveamberparm c  DK.Anc264.aligned.prmtop  DK.Anc264.aligned.inpcrd
+
+c = loadPDB  DKG.Anc262.aligned.pdb  
+savepdb c  DKG.Anc262.amber.pdb
+saveamberparm c  DKG.Anc262.aligned.prmtop  DKG.Anc262.aligned.inpcrd
+
+c = loadPDB  DKG.Anc263.aligned.pdb  
+savepdb c  DKG.Anc263.amber.pdb
+saveamberparm c  DKG.Anc263.aligned.prmtop  DKG.Anc263.aligned.inpcrd
+
+c = loadPDB  DKG.Anc330.aligned.pdb  
+savepdb c  DKG.Anc330.amber.pdb
+saveamberparm c  DKG.Anc330.aligned.prmtop  DKG.Anc330.aligned.inpcrd
+
+
+
+quit
+
