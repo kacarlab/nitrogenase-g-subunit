@@ -1,0 +1,16 @@
+name: gsubunit
+channels:
+  - conda-forge
+  - omnia
+  - defaults
+dependencies:
+  - matplotlib
+  - pandas
+  - pip
+  - ambertools
+  - prolif
+  - prody
+  - ipykernel
+  - plotly
+  - nbformat
+prefix: /home/bcz/miniconda3/envs/gsubunit
