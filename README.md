@@ -31,6 +31,7 @@ following comments here:
 
     pip install pyfamsa
     pip install logomaker
+    pip install freesasa
 
 We carry out some of our analysis in Jupyter Notebooks, inside the 
 **notebooks** folder.
